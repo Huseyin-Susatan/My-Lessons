@@ -51,6 +51,10 @@ textarea{
 .input-box{
     margin-top: 10px;
 }
+#checkbox,
+#radio{
+    margin-top: 40px;
+}
 #form-button{
     width: 160px;
     height: 45px;
