@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Lobster&family=Sorts+Mill+Goudy:ital@1&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -21,4 +22,10 @@
 }
 span{
     color: #ff0000;
+}
+#description{
+    font-family: 'Sorts Mill Goudy', serif;
+}
+#header{
+    text-align: center;
 }
