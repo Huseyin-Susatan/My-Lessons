@@ -5,9 +5,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* body{
-    background-image: url(./img/background_image.jpg);
-} */
+body{
+    /* background-image: url(./img/background_image.jpg); */
+    color: white;
+}
 #container{
     max-width: 1240px;
     height: 1036px;
@@ -29,3 +30,27 @@ span{
 #header{
     text-align: center;
 }
+textarea{
+    resize: none;
+}
+#survey-form-container{
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+    padding: 30px 40px;
+}
+#name,#age,#email,#dropdown,#feedback{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
