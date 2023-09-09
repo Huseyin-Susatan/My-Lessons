@@ -1,9 +1,10 @@
 .main{
     width: 100%;
-    background-color: aqua;
+    background-color: rgba(25, 156, 13, 0.61);
     height: 1000px;
     margin: 30px;
     padding: 5px;
+    position: relative;
 }
 .box1{
     width: 100px;
@@ -13,10 +14,24 @@
 .box2{
     width: 100px;
     height: 100px;
-    background-color: rgba(8, 24, 172, 0.76);
+    background-color: rgba(238, 255, 0, 0.938);
+    position: relative;
+    /* top: 20px; */
+    /* left: 20px; */
+    
 }
 .box3{
     width: 100px;
     height: 100px;
     background-color: rgba(250, 0, 0, 0.692);
+}
+#icerde{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    font-size: .5rem;
+    color: yellow;
+    position: absolute;
+    bottom: 0; 
+    right: 0;
 }
