@@ -1,0 +1,22 @@
+.main{
+    width: 100%;
+    background-color: aqua;
+    height: 1000px;
+    margin: 30px;
+    padding: 5px;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(236, 15, 207, 0.747);
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(8, 24, 172, 0.76);
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(250, 0, 0, 0.692);
+}
