@@ -15,7 +15,22 @@
         span{
             background-color: bisque;
             margin: 10px;
-            padding: 20px;;
+            padding: 20px;
+            display: block;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: burlywood;
+            border: 2px solid darkorchid;
+            margin-top: 5px;
+            display: inline-block;
+        }
+        #box2{
+            background-color: cyan;
+            /*display: none;*/ 
+            /*visibility: hidden;*/
+            margin: 10px;
         }
     </style>
 </head>
@@ -28,8 +43,8 @@
 
     <!-- -----block element----- -->
 
-        <div class="box1">box1</div>
-        <div class="box2">box2</div>
-        <div class="box3">box3</div>
+        <div class="box">box1</div>
+        <div class="box" id="box2">box2</div>
+        <div class="box">box3</div>
 </body>
 </html>
