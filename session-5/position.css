@@ -5,25 +5,40 @@
     margin: 30px;
     padding: 5px;
     position: relative;
+    margin-top: 100px;
 }
 .box1{
     width: 100px;
+    /* margin: auto; */
+    /* border-radius: 20px; */
     height: 100px;
     background-color: rgba(236, 15, 207, 0.747);
+    /* position: fixed; */
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
 }
 .box2{
     width: 100px;
     height: 100px;
     background-color: rgba(238, 255, 0, 0.938);
     position: relative;
+    bottom: 20px;
     /* top: 20px; */
-    /* left: 20px; */
+    left: 20px;
+    z-index: 2;
     
 }
 .box3{
     width: 100px;
     height: 100px;
     background-color: rgba(250, 0, 0, 0.692);
+    position: relative;
+    left: 0;
+    bottom: 65px;
+    z-index: 3;
 }
 #icerde{
     width: 30px;
