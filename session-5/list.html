@@ -8,7 +8,28 @@
         .item{
             /*list-style-type: georgian; */
             /*list-style-position: outside;*/
-            list-style-type: "❤💛";
+              list-style-type: "❤💛";
+            /*list-style-image: url(./img/331_2.jpg);*/
+        }
+        li::before{
+            /*content: "\2764";*/
+           /* color: red;
+            padding: 10px;*/
+        }
+        ol{
+            list-style-type: none;
+            margin: 5px;
+            padding: 5px;
+        }
+        ol li{
+            border: 1px solid darkorange;
+            border-radius: 25px;
+            margin: 10px;
+            padding-left: 1rem;
+            background-color: bisque;
+            border-left: 7px solid gray;
+            color: brown;
+            width: 15rem;
         }
 
 
@@ -22,5 +43,12 @@
         <li class="item item4">item4</li>
         <li class="item item5">item5</li>
     </ul>
+    <ol>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+    </ol>
 </body>
 </html>
