@@ -1,10 +1,25 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100vh;
+    background-color: burlywood;
+}
 .abs{
     background-color: aqua;
     width: 5cm;
 }
 .div2{
     background-color: chocolate;
+    width: 50%;
+    height: 50%;
 }
 .div3{
-    background-color: orange;
+    background-color: yellow;
+    width: 50%;
+    height: 50vh;
+}
+.div4{
+    background-color: darkmagenta;
+    width: 50vw;
 }
