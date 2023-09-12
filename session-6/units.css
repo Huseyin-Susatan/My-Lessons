@@ -1,9 +1,12 @@
 *{
     margin: 0;
 }
+html{
+    font-size: 10px; /* 1rem=10px*/
+}
 body{
     height: 100vh;
-    background-color: burlywood;
+    /* background-color: burlywood; */
 }
 .abs{
     background-color: aqua;
@@ -17,9 +20,34 @@ body{
 .div3{
     background-color: yellow;
     width: 50%;
-    height: 50vh;
+    height: 20vh;
 }
 .div4{
     background-color: darkmagenta;
     width: 50vw;
+}
+.div5{
+    font-size: 1em;  /*16px*/
+}
+.div6{
+    font-size: 2em;  /*32px*/
+}
+.div7{
+    font-size: 3em;  /*96px*/
+}
+.div8{
+    font-size: 0.5em;  /*48px*/
+}
+.div9{
+    font-size: 1rem;
+}
+.div10{
+
+    font-size: 2rem;
+}
+.div11{
+    font-size: 3rem;
+}
+.div12{
+    font-size: 4rem;
 }
