@@ -16,3 +16,13 @@
 .kutu > p {
     color: green;
 }
+/*! h1 elementi kapandiktan sonraki ilk p elementi secer */
+/** Adjacent Sibling */
+h1 + p {
+    color: blue;
+} 
+/*! h1 elementinden sonraki tüm p elementlerini seçer */
+/** general sibling selector */
+h1 ~ p {
+    color: hotpink;
+}
