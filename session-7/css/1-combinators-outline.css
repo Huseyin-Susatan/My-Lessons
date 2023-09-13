@@ -1,0 +1,18 @@
+/* COMBINATORS*/
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+/* Decendent Selector*/
+/*! kutu class'ı icerisinde tüm p'leri sec */
+.kutu p {
+    color: red;
+}
+/* Child Selector*/
+/*! parent'i kutu class olan tüm p'leri sec */
+.kutu > p {
+    color: green;
+}
